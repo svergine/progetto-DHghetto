@@ -1,0 +1,24 @@
+<!-- elemento radice e namespaces, xsi attribuisce dei tipi a dc -->
+<dc:metadata xmlns:dc="http://plur.org/dc/elements/1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <author xml:id="inserto43">
+  	<item n="1" xml:id="inserto43">
+		<dc:Title>Pag.3-4, Inserto 4</dc:Title>
+		<!-- questa è una tripla -->
+		<dc:Creator>Francesco Buratti</dc:Creator>
+		<dc:Contributor>Pier Antonio Tosi</dc:Contributor>
+		<dc:Subject n="1">Pagine di Manoscritto</dc:Subject>
+		<dc:Subject n="2">Manoscritto vol. 3559, ins. 4, Descrizione del Ghetto.</dc:Subject>
+		<dc:Description>Manoscritto. Vengono citati gli autori ed inizia la descrizione della Fabbrica del Ghetto.</dc:Description>
+		<dc:Publisher>Scrittoio delle Regie Possessioni</dc:Publisher>
+		<dc:Coverage xsi:type="dcterms:TGN" href="http://vocab.getty.edu/page/tgn/1000080">Italia</dc:Coverage>
+		<dc:Date xsi:type="dcterms:W3CDTF">1743-01-20</dc:Date>
+		<dc:Type>Manoscritto</dc:Type>
+		<dc:Format>Inchiostro nero su carta</dc:Format>
+		<dc:Identifier>001</dc:Identifier>
+		<dc:Source>Descrizione del Ghetto, 1743</dc:Source>
+		<dc:Language>it</dc:Language>
+		<dc:Relation>https://archiviodistatofirenze.cultura.gov.it/asfi/strumenti/inventari-on-line/inventari-s/scrittoio-delle-regie-possessioni</dc:Relation>
+		<dc:Right>Creative commons 4.0</dc:Right>
+	</item>
+   </author>
+</dc:metadata>

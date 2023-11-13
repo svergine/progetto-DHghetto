@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang=it>
+ <head>
+  <title>Il Ghetto di Firenze dai documenti d'archivio</title><meta charset="utf-8"/>
+  <!-- METADATI DC-->
+  <meta name="DC.Title" content="Il Ghetto di Firenze dai documenti d'archivio">
+  <meta name="DC.Creator.PersonalName" content="Silvia Vergine">
+  <meta name="DC.Creator.PersonalAddress" content="silvia.vergine2@studio.unibo.it">
+  <meta name="DC.Subjec" content="Documenti d'archivio riguardanti il Ghetto di Firenze">
+  <meta name="DC.Description" content="Il Ghetto di Firenze dai documenti d'archivio è un progetto di ricerca con l'obiettivo di catalogare, metadatare, presentare e valorizzare tutti i documenti archivistici riguardanti il Ghetto di Firenze.">
+  <meta name="DC.Publisher" content="https://github.com/">
+  <link rel="DC.Coverage" xsi:type="dcterms:TGN" href="http://vocab.getty.edu/page/tgn/1000080">
+  <meta name="DC.Date" xsi:type="dcterms:W3CDTF" content="13/11/2023">
+  <meta name="DC.Type" content="sito web">
+  <meta name="DC.Format" content="HTML/CSS/JS">
+  <link rel="DC.Identifier" href="https://silvergine.github.io/progetto-dhghetto/">
+  <meta name="DC.Language" content="it">
+  <media name="DC.Right" content="Creative commons 4.0">
+  <link rel="stylesheet" href="style/style.css"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alegreya SC|Castoro Titling"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta name="viewport" content="width-device-width, initial-scale=1, shrink-to-fit=no"> 
+  <!-- ricorda di aggiungere riduzione schermo -->
+  <link rel="icon" type="image/x-icon" href="favicon-libro.ico"/>
+ </head>
+ <body>
+  <!-- header con immagine -->
+  <div>
+  	<header class="header" id="top">
+  	 <img src="img/header-ghetto2.png" class="center responsive" alt="Il Ghetto di Firenze"/>
+  	</header>
+  </div>
+  <!-- navigation bar con dropdown + info e ? sulla dx-->
+  <div class="topnav">
+  	<ul>
+	 <li><a href="#" class="active" title="Link alla home">Home</a></li>
+	 <li><a href="#" title="Link alla Storia del Ghetto">Storia</a></li>
+	 <li class="dropdown">
+	 	<a href="javascript:void(0)" class="dropbtn" title="Link al catalogo">Catalogo</a>
+	 	<div class="dropdown-content">
+	 		<a href="list-items.html" title="Link ai manoscritti">Manoscritti</a>
+	 		<a href="#" title="Link alle Piante">Piante</a>
+	 		<a href="#" title="Link al Render">Render 3D</a>
+	 	</div>
+	  </li>
+	 <li><a href="#" title="Link ai confronti">Confronti</a></li>
+	 <div class=info>
+	 <li><a href="#" title="Link a info e contatti">Info & Contatti</a></li>
+	 <li><i class="fa fa-question-circle-o" style="font-size: 36px;"></i></li>
+	</div>
+	</ul>
+  </div>
+  <!-- carosello con immagini, caprions e link (attiva il primo) -->
+  <div class="slideshow-container">
+  	<div class="mySlides fade">
+  	  <img src="img/descrizione-manoscritto.jpg" alt="Descrizione del Ghetto di Firenze (1747)" style="width:100%"/>
+  	   <p class="text">Manoscritti:<br/><a href="list-items.html" title="Link ai manoscritti">Scopri tutti i manoscritti</a></p>
+  	</div>
+  	<div class="mySlides fade">
+  	  <img src="img/pianta-ghetto.jpg" alt="Pianta di tutto il continente terreno, con la distinzione delle piazze, e siti comuni" style="width:100%"/>
+  	   <p class="text">Piante:<br/><a href="#" title="Link alle Piante">Scopri tutte le piante</a></p>
+  	 </div>
+  	 <div class="mySlides fade">
+  		<img src="img/render.jpg" alt="Render stampato in 3D del Ghetto di Firenze" style="width:100%"/>
+  		<p class="text">Render 3D:<br/><a href="#" title="Link al render">Scopri di più sul render 3D</a></p>
+  	 </div>
+  	 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+     <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  </div>
+  <hr/>
+  <!-- div spiegazione progetto -->
+  <div class="chisiamo">
+  	<h1>Chi siamo</h1>
+  	<p>
+  		<b>Il Ghetto di Firenze dai documenti d'archivio</b> è un progetto di ricerca in comunione con l'Archivio Comunale Storico di Firenze, l'Archivio di Stato di Firenze e il Medici Archive Project(<a href="https://www.medici.org/" class="maplink" target="_block">MAP</a>).<br/>Gli obiettivi che si propone sono la catalogazione, metadatazione, presentazione e valorizzazione di tutti i documenti archivistici riguardanti il Ghetto di Firenze con il fine ultimo di ricostruirne l'aspetto originario dopo la demolizione risalente al 1888.
+  	</p>
+  </div>
+ <hr class="giu"/>
+<!-- CARDS heyheyheyyy ci siamooo -->
+ <div class="row">
+  <div class="column">
+    <div class="card">
+    	<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11524.113888790918!2d11.2595641!3d43.7722678!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132a540429169e89%3A0x97e92ecb051fa7d9!2sArchivio%20Comunale%20Storico%20di%20Firenze!5e0!3m2!1sit!2sit!4v1698941380599!5m2!1sit!2sit" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+    	<div class="container">
+    	   <h4>ARCHSTOR FIRENZE</h4>
+    	   <a href="https://archinet.comune.fi.it/it/" class="btnlink" target="_block">Visita il sito del partner</a>
+    	</div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+    	<img src="img/telemaco-signorini.jpg" alt="Immagine dell'antico Ghetto" class="frame" />
+    	<div class="container">
+    		<h4>I luoghi del Ghetto</h4>
+    		<a href="https://uploads.knightlab.com/storymapjs/7feada7fa7f6c85b1faf5e1e9d89bccf/i-luoghi-del-ghetto-di-firenze/draft.html" class="btnlink" target="_block">Visita la mappa interattiva</a>
+    	</div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+    	<img src="img/mostra1.jpg" alt="Arazzo in mostra a Palazzo Pitti" class="frame"/>
+    	<div class="container">
+    	   <h4>Gli ebrei, i medici e il Ghetto di Firenze</h4>
+    	   <a href="https://www.uffizi.it/eventi/ebrei-firenze" class="btnlink" target="_block">Visita la mostra</a>	
+    	</div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+    	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11524.936251308054!2d11.24131682092676!3d43.767999911353876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132a54098a2b3ecb%3A0x74e27870dccd0f88!2sThe%20Medici%20Archive%20Project!5e0!3m2!1sit!2sit!4v1698941972889!5m2!1sit!2sit" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    	<div class="container">
+    		<h4>MEDICI ARCHIVE PROJECT</h4>
+    		<a href="https://www.medici.org/" class="btnlink" target="_block">Visita il sito del partner<a>	
+    	</div>
+    </div>
+  </div>
+ </div>
+<!-- footer con credits e copy -->
+ <div class="row1 footer">
+ 	<p><a href="#" title="Credits">Credits</a>|<a href="#" title="Licenze">Licenze</a></p>
+	  <div>
+	     <a href="#top" class ="btnlink" title="Torna su">Torna su</a> <a href="#" class="btnlink" title="Link al sito personale">Sito personale</a>
+	     <a href="#" class="btnlink" title="Link alla donazione">DONA</a>
+		</div>
+ </div>
+ <div class="row2 copyright">
+	<p>&copy; Copyright All Rights Reserved 2023 by Silvia Vergine - Esame DH</p>
+ </div>
+ <!-- JAVASCRIPT -->
+   <script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+  </script>
+ </body>
+</html>

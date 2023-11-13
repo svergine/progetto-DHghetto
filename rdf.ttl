@@ -1,0 +1,23 @@
+@prefix rdf: <https://www.w3.org/TR/1999/REC-rdf-syntax-19990222/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1> .
+@prefix viaf: <http://viaf.org/viaf/> .
+
+<https://viaf.org/viaf/121802096/>
+rdf:type foaf: Person;
+foaf: name "Cosimo I de Medici"
+
+@prefix rdf: <https://www.w3.org/TR/1999/REC-rdf-syntax-19990222/> .
+@prefix geonames: <http://geonames.org/ontology#> .
+@prefix locn: <http://www.w3.org/ns/locn#> .
+
+<https://www.geonames.org/3176959/florence.html>
+rdf:type locn: Place;
+locn:name "Firenze" .
+
+@prefix rdf: <https://www.w3.org/TR/1999/REC-rdf-syntax-19990222/> .
+@prefix dpedia: <http://dpedia.org/page/Material> .
+@prefix dpedia: <http://dpedia.org/page/Paper> .
+
+<http://bimerr.iot.linkeddata.es/def/material-properties#>
+rdf:type mat: materialAndTechinque ;
+mat:name "carta/inchiostro"

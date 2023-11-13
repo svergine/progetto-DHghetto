@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>	
+   <!-- descrizione file digitsale --> 
+     <fileDesc>
+         <titleStmt>
+ 			 <title>Pag. 3-4: Descrizione del Ghetto</title>
+ 			 <author ref="FB">Francesco Buratti</author>
+             <author ref="PAT">Pier Antonio Tosi</author>
+ 			 <respStmt xml:id="SV">
+ 			   <resp>codifica TEI</resp>
+                 <name>Silvia Vergine</name>
+                 <name xml:id="sigla">SV</name>
+ 			 </respStmt>
+         </titleStmt>
+         <publicationStmt>
+             <publisher>Archivio di Stato di Firenze</publisher>
+             <address>
+                 <addrLine>Firenze</addrLine>
+             </address>
+             <availability>
+                 <p>L'opera è liberamente consultabile e scaricabile</p>
+             </availability>
+             <date when="2023-11-10">10 novembre 2023</date>
+         </publicationStmt>
+        <sourceDesc>
+             <bibl>
+                 <title>Descrizione del Ghetto</title>
+                 <author>Francsco Buratti</author>
+                 <author>Pier Antonio Tosi</author>
+                 <publisher>Scrittoio delle Regie Possessioni</publisher>
+                 <pubPlace>Firenze</pubPlace>
+                 <date>1743</date>
+             </bibl>
+        </sourceDesc>
+     </fileDesc>
+    </teiHeader>
+ <text>
+  <body>
+    <div type="preface">
+        <opener>
+            <dateline>A di 20 Gennaio 1743.</dateline>
+        </opener>
+        <p xml:lang="it">Descrizione, e inventario dello stato, che presentemente si trovano, tutti i Quartieri, Botteghe, Magazzini, Forni et altro, contenuto nel Ghetto Vecchio e Nuovo; Siccome delle Botteghe fuori e attorno a detto Ghetto, e Macelli di Mercato Vecchio, <gap reason="cancelled">(cancellato: e di altre case e botteghe, esistenti nella città di Firenze,)</gap> tutto di pertinenza dello Scrittoio delle Possessioni di 
+        <choice>
+        <abbr.>S. A. R.</abbr.>
+        <expan>Sua Altezza Reale</expan>
+        </choice>
+        Qual 
+        <choice>
+        <sic>descrizzione</sic>
+        <corr>descrizione</corr>
+        </choice> 
+        e inventario fatto da <name type="person" ref="PAT">me</name> infrascritto, assieme col signor <name type ="person" ref="FB">Francesco Buratti</name> risquotitore delle casa a pigione suddette ecc.La fabbrica del Ghetto è di figura quadrilatera, la quale resta in isola et è situata quasi nel mezzo della città di Firenze, presso a Mercato Vecchio che gli resta dalla parte di mezzo giorno. A levante confina colle due vie Sportaj e Succhiellinai; A tramontana la Piazza dell'Olio et a ponente via dei Rigattieri. Sono in questo Ghetto due piazze.</p>
+    </div>
+  </body>
+ </text>
+ </TEI>

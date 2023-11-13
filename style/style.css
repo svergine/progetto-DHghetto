@@ -1,0 +1,565 @@
+@import url("https://fonts.googleapis.com/css?family=Alegreya SC|Castoro Titling&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Castoro Titling";
+}
+
+header {
+  padding: 20px;
+  text-align: center;
+  height: 100%;
+}
+
+.header img {
+  width: 20%;
+  height: auto;
+}
+
+.fa {
+  color: #f2f2f2;
+  margin-top: 5px;
+  margin-right: 7px;
+  margin-left: 5px;
+}
+
+.info {
+  float: right;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ac8b6a;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: #d2b597;
+}
+
+li.dropdown {
+  display: block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #543812;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #e6e6e6;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* CAROSELLO */
+
+.slideshow-container {
+  max-width: 2000px;
+  position: relative;
+  margin: auto;
+  margin-top: 30px;
+}
+
+/* nasconde le immagini di default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* posizione "next button" a destra */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* hover: aggiungo bg nero con un po' di trasparenza */
+.prev:hover, .next:hover, .text:hover {
+  background-color: rgba(0,0,0,0.5);
+}
+
+/* testo delle caption */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  max-width: 50%;
+  margin-left: 40%;
+  text-align: center;
+}
+
+/* i dots sotto al carosello */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #d2b597;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* schermi + piccoli > rimpicciolisce */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+a, .copyright {
+  color: #f2f2f2;
+}
+
+a:hover {
+  color: #ac8b6a;
+} 
+
+h1 {
+  color: #543812;
+  text-align: center;
+  font-size: 25px;
+  margin-top: -3%;
+}
+
+h4 {
+  color: #543812;
+}
+
+.chisiamo {
+  color: #ac8b6a;
+  padding: 5%;
+}
+
+.giu {
+  margin-bottom: 30px;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style per il contenitore delle cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* questo aggiunge l'effetto "card" */
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+iframe, .frame {
+ width: 100%;
+ height: 20%;
+}
+
+.row1 {
+  background-color: #d2b597;
+  text-align: center;
+  color: #f2f2f2;
+  padding: 5px;
+  margin-top: 30px;
+}
+
+.row2 {
+  background-color: #ac8b6a;
+  text-align: center;
+  padding: 10px;
+}
+
+.btnlink {
+  background-color: #f9f9f9;
+  color: #543812;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 15px;
+  border-radius: 20px;
+}
+
+.btnlink:hover {
+  background-color: #e6e6e6;
+}
+
+.maplink {
+  color: #ac8b6a;
+}
+
+.maplink:hover {
+  color: #543812;
+}
+
+.footer, .copyright {
+  font-size: 13px;
+}
+
+/* DA QUI PROVA PER GRIGLIA PAG.ITEMS */
+
+.leftcolumn {
+  float: left;
+  padding: 15px;
+  width: 20%;
+  margin-top: 120px;
+}
+
+.rightcolumn {
+  float: left;
+  padding: 15px;
+  width: 80%;
+}
+
+.equalcolumn {
+  float: left;
+  padding: 15px;
+  width: 50%;
+}
+
+/*breadcrumbs*/
+
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  background-color: #f1f1f1;
+}
+
+ul.breadcrumb li {
+  margin-top: 5px;
+  display: inline;
+  font-size: 12px;
+  color: #543812;
+}
+
+ul.breadcrumb li + li:before {
+  padding: 8px;
+  color: #543812;
+  content: "/\00a0";
+}
+
+ul.breadcrumb li a {
+  color: #ac8b6a;
+  text-decoration: none;
+}
+
+ul.breadcrumb li a:hover {
+  text-decoration: underline;
+}
+
+a.bread {
+  padding: 1px;
+  display: inline;
+}
+
+a.bread:hover {
+  background-color: #f1f1f1;
+}
+
+.rio {
+  font-size: 13px;
+}
+
+/*barra di ricerca*/
+form.example {
+  margin: auto;
+  max-width: 300px;
+}
+
+form.example input[type="text"] {
+  padding: 10px;
+  font-size: 13px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 8.2px;
+  color: white;
+  font-size: 13px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+.bgbro {
+  background-color: #ac8b6a;
+}
+
+form.example button:hover {
+  background: #d2b597;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* tabs */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+.tab button {
+  float: left;
+  font-size: 15px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  color: #543812;
+}
+
+.tab button:hover {
+  color: #d2b597;
+  background-color: #e6e6e6;
+}
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+  color: #543812;
+}
+
+h2, .posi {
+  text-align: center;
+  color: #d2b597; /*beige*/
+}
+
+/*zoom immagini*/
+.zoom {
+  transition: transform .2s;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.5); 
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5); 
+}
+
+/* pagination */
+.pagination {
+  font-size: 13px;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.pagination a {
+  color: #543812; /*marrone scuro*/
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.pagination a.active {
+  background-color: #d2b597;
+  color: white;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+/*griglia presentazione item*/
+
+.border-section {
+  padding: 12px 12px;
+  border: 1px solid #ccc;
+}
+
+/*img dell'item responsive*/
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+/*lente ingrandimento*/
+
+.img-magnifier-container {
+  position:relative;
+}
+
+.img-magnifier-glass {
+  position: absolute;
+  border: 3px solid #000;
+  border-radius: 50%;
+  cursor: none;
+  /*Set the size of the magnifier glass:*/
+  width: 100px;
+  height: 100px;
+}
+
+/*ACCORDION TRASCRIZIONE*/
+
+.accordion {
+  background-color: #eee;
+  color: #d2b597;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.accordion:after {
+  content: '\002B'; /*simbolo +*/
+  color: ##543812;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  color: #543812;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  font-size: 12px;
+}
+
+.fa-download, .fa-file-code-o {
+  color: #543812;
+}
+
+.textlat {
+  color: #543812;
+  text-align: center;
+  font-size: 10px;
+}
+
+/*flipcardzzzz*/
+
+.flip-card {
+  background-color: transparent;
+  width: 230px;
+  height: 200px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 75%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-back {
+  background-color: #d2b597;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.sup {
+  margin-top: 29px;
+}
+
+span {
+  color: #d2b597;
+}

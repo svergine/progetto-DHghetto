@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE c PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ftp://ftp.loc.gov/pub/ead/ead.dtd">
+<c encodinganalog="ISAD 1 - 4 level of description" audience="internal" id="IT-ASBO-00007193" level="fonds">  
+  <did>
+    <unitid countrycode="it" encodinganalog="ISAD 1 - 1 reference code" repositorycode="ASBO">3559</unitid> 
+    <unittitle encodinganalog="ISAD 1 - 2 title">DESCRIZIONE DEL GHETTO</unittitle>
+    <unitdate encodinganalog="ISAD 1 - 3 dates">1743</unitdate>
+    <physdesc encodinganalog="ISAD 1 - 5 extent and medium of the unit">
+    	<extent>1897 pag.</extent>
+    	<genreform>manuscript</genreform>
+    </physdesc>
+    <physdesc encodinganalog="ISAD 1 - 5 extent and medium of the unit">
+    	<extent>4</extent>
+    	<genreform>insert</genreform>
+    </physdesc>
+    <physdesc encodinganalog="ISAD 1 - 5 extent and medium of the unit">
+    	<extent>3559</extent>
+    	<genreform>volume</genreform>
+    </physdesc>
+  </did>
+  <descgrp encodinganalog="ISAD 2 context area">
+  	<origination encodinganalog="ISAD 2 - 1 name of creator(s)">              
+        <famname>Francesco Buratti</famname>              
+        <famname>Pier Antonio Tosi</famname>                       
+    </origination>
+    <bioghist encodinganalog="ISAD 2 - 2 Administrative/Biographical history"> 
+    	<p>Il manoscritto fa parte dello Scrittoio delle Regie Possessioni. Il patrimonio dei Medici era sottoposto alla cura di specifici uffici: l'amministrazione del patrimonio, consistente in beni fondiari, rendite ed entrate fiscali di vario genere, fu affidata allo Scrittoio delle Possessioni; la manutenzione degli immobili di proprietà medicea e della maggior parte degli stabili pubblici (in seguito anche quella delle fortezze) fu gestita dallo Scrittoio delle Fabbriche; per i beni mobili, il funzionamento quotidiano delle ville e dei palazzi, comprensivi di suppellettili e oggetti d'arte, funzionava una Guardaroba. Tra le competenze dello Scrittoio delle Possessioni, istituito da Cosimo I intorno al 1540, risultavano comprese l'amministrazione delle fattorie granducali (più di trenta), di mulini, poderi spezzati, case e botteghe, comprese quelle affittate agli ebrei del Ghetto, l'amministrazione dei boschi toscani, in parte gestita anche dai Capitani di Parte guelfa. In seguito, si aggiunsero altri proventi derivanti da numerose privative (Azienda della foglia del gelso, Azienda del ghiaccio, entrate delle licenze di caccia e pesca, dei laghi di Castiglion della Pescaia e di Fucecchio, di passi di nave). Lo Scrittoio inoltre amministrava le terre assegnate all'Ordine di Santo Stefano, distribuiva elemosine e doti e allevava cavalli e muli per le scuderie reali (Regie Razze di Pisa). L'ufficio aveva una sede centrale a Firenze ed alcune sedi periferiche a Siena, Pisa, nella Maremma rossetana (presso la fattoria della Marsiliana), in Val di Chiana. In seguito, con motuproprio del 6 aprile 1838, l'ufficio fu ristrutturato in una Soprintendenza generale alle regie possessioni. Dal 1847 amministrò anche i beni dell'ex-ducato di Lucca e, più avanti, parte di beni che erano alle dipendenze della soppressa Amministrazione delle regie miniere. Con decreto del 20 novembre 1857 la Soprintendenza fu sostituita dalla Direzione generale dell'Amministrazione dei regi possessi, le cui funzioni passarono nel 1863 al Regio Demanio e all'Amministrazione dei beni della Real casa. La documentazione, pur rispecchiando l'ordinamento dell'inventario in uso, è ordinata secondo i dipartimenti territoriali nei quali era organizzato l'ufficio e secondo le diverse aziende che vi si aggiunsero nel corso del tempo. Essa consiste per lo più in registri contabili relativi ai beni e alle diverse entrate, negozi, atti e contratti, carteggi con uffici referenti periferici o centrali, atti processuali e sentenze per gli ambiti giurisdizionali di competenza dell'ufficio. La vasta attività cartografica dello Scrittoio è conservata nel fondo denominato "Piante dello Scrittoio delle possessioni" - articoltato in “tomi” e “piante sciolte” - nel quale sono stati inseriti i disegni e le piante che furono estratti dal fondo.</p>
+    </bioghist>
+  </descgrp>
+  <descgrp encodinganalog="ISAD 3 content and structure area">
+  	 <scopecontent encodinganalog="ISAD 3 - 1 scope and content">
+  	 	<p>In base al decreto del 20 novembre 1857 sopra citato, la documentazione archivistica dello S. R. P. venne trasferita all'Archivio di Stato di Fireze.</p>
+  	 </scopecontent>
+  	 <arrangement encodinganalog="ISAD 3 - 4 system of arrangement">         
+            <p>Riordinato nel 2004</p>          
+     </arrangement>
+  </descgrp>
+  <descgrp encodinganalog="ISAD 4 conditions of access and use area">          
+        <accessrestrict encodinganalog="ISAD 4 - 1 conditions governing access">    
+            <p>Strumento di accesso 3559, XXI, 4. Indicare solo il numero progressivo del pezzo, senza scendere di livello.</p>       
+        </accessrestrict>
+        <langmaterial encodinganalog="ISAD 4 - 3 Language/scripts of material">
+        	<p>italiano</p>
+        </langmaterial>
+  </descgrp>
+  <descgrp encodinganalog="ISAD 5 allied materials area">   
+  	<originalsloc encodinganalog="ISAD 5 - 1 Existence and locations of originals">
+  		<p>A. S. F., S. R. P., 3559, XXI, 4</p>
+  		<p>Archivio di Stato di Firenze</p>
+  	</originalsloc>
+  	<relatedmaterial encodinganalog="ISAD 5 - 4 Related units of description">
+  		<p>Vol. 3559, inserto 1</p>
+  		<p>Vol. 3559, inserto 2</p>
+  		<p>Vol. 3559, inserto 3</p>
+  	</relatedmaterial>
+  </descgrp>
+  <descgrp encodinganalog="ISAD 7 - 1 Archivist's note">
+  	<processinfo>
+  		<item>
+  			<date>2023</date>
+  			<persname>Silvia Vergine</persname>Compilazione
+  		</item>
+  	</processinfo>
+  </descgrp>
+</c> 

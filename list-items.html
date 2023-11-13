@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang=it>
+ <head>
+  <title>Il Ghetto di Firenze dai documenti d'archivio</title><meta charset="utf-8"/>
+  <link rel="stylesheet" href="style/style.css"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alegreya SC|Castoro Titling"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta name="viewport" content="width-device-width, initial-scale=1, shrink-to-fit=no"> 
+  <!-- ricorda di aggiungere riduzione schermo -->
+  <link rel="icon" type="image/x-icon" href="favicon-libro.ico"/>
+ </head>
+ <body>
+  <!-- header con immagine -->
+  <div>
+  	<header class="header" id="top">
+  	 <img src="img/header-ghetto2.png" class="center responsive" alt="Il Ghetto di Firenze"/>
+  	</header>
+  </div>
+  <!-- navigation bar con dropdown + info e ? sulla dx-->
+  <div class="topnav">
+  	<ul>
+	 <li><a href="index.html" title="Link alla home">Home</a></li>
+	 <li><a href="#" title="Link alla Storia del Ghetto">Storia</a></li>
+	 <li class="dropdown">
+	 	<a href="javascript:void(0)" class="dropbtn active" title="Link al catalogo">Catalogo</a>
+	 	<div class="dropdown-content">
+	 		<a href="#" title="Link ai manoscritti">Manoscritti</a>
+	 		<a href="#" title="Link alle Piante">Piante</a>
+	 		<a href="#" title="Link al Render">Render 3D</a>
+	 	</div>
+	  </li>
+	 <li><a href="#" title="Link ai confronti">Confronti</a></li>
+	 <div class=info>
+	 <li><a href="#" title="Link a info e contatti">Info & Contatti</a></li>
+	 <li><i class="fa fa-question-circle-o" style="font-size: 36px;"></i></li>
+	</div>
+	</ul>
+  </div>
+  <!-- breadcrumbs -->
+   <div>
+    <ul class="breadcrumb">
+     <li><a href="index.html" title="Link alla home" class="bread">Home</a></li>
+     <li><a href="#" title="Link al Catalogo" class="bread">Catalogo</a></li>
+     <li><a href="#" title="Link ai manoscritti" class="bread">Manoscritti</a></li>
+     <li><a href="#" class="bread">S. R. P.</a></li>
+     <li>Vol. 3559</li>
+    </ul>
+   </div>
+ <!-- filtri con griglia a 2 colonne -->
+    <div class="row">
+      <!-- left column -->
+      <div class="leftcolumn">
+        <div>
+          <p class="posi">Riordina la lista:</p>
+          <a href="#" class="btnlink rio" title="In ordine tematico">Ordine tematico</a>
+          <a href="#" class="btnlink rio" title="Nomi dalla A alla Z">Nomi dalla A alla Z</a>
+          <a href="#" class="btnlink rio" title="Nomi dalla Z alla A">Nomi dalla Z alla A</a>
+          <a href="#" class="btnlink rio" title="In ordine cronologico">Ordine cronologico</a>
+        </div>
+      </div>
+      <!-- right column -->
+      <div class="rightcolumn">
+        <h2>Scrittoio delle Regie Possessioni: Vol. 3559</h2>
+        <p class="posi">Il volume 3559 consiste di 4 inserti tutti prodotti da <b>Francesco Buratti</b> tra il 1708 e il 1747 sotto dettatura di <b>Pier Antonio Tosi</b>.</p>
+        <!-- tabs -->
+        <!-- tab links -->
+        <div class="tab">
+          <button class="tablinks" id="defaultOpen"
+            onclick="openPage('Inserto 1')">Inserto 1</button>
+          <button class="tablinks" id="defaultOpen"
+            onclick="openPage('Inserto 2')">Inserto 2</button>
+          <button class="tablinks" onclick="openPage('Inserto 3')">Inserto 3</button>
+          <button class="tablinks" onclick="openPage('Inserto 4')">Inserto 4</button>
+        </div>
+        <!-- tab content -->
+        <!-- Inserto 1 -->
+        <div id="Inserto 1" class="tabcontent">
+          <h3>Inserto 1 <span>(1720)</span></h3>
+          <!-- search bar -->
+          <form class="example" action="/action_page.php">
+            <input type="text" placeholder="Search.." name="search2" />
+            <button class="bgbro" type="submit"><i class="fa fa-search"></i></button>
+          </form>
+          <!-- cards -->
+          <div class="row">
+            <div class="equalcolumn">
+              <div class="card">
+                <div class="container">
+                  <img src="img/inserto11.jpg" alt="frontespizio" class="zoom" />
+                  <p>frontespizio</p>
+                  <a href="#" class="btnlink rio" title="Vai ai metadati">Vai ai metadati</a>
+                </div>
+              </div>
+            </div>
+            <div class="equalcolumn">
+              <div class="card">
+                <div class="container">
+                  <img src="img/inserto12.jpg" alt="pag.1-2" class="zoom" />
+                  <p>pag. 0-1</p>
+                  <a href="#" class="btnlink rio" title="Vai ai metadati">Vai ai metadati</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="equalcolumn">
+              <div class="card">
+                <div class="container">
+                  <img src="img/inserto13.jpg" class="zoom">
+                  <p>pag. 2-3</p>
+                  <a href="#" class="btnlink" title="Vai ai metadati">Vai ai metadati</a>
+                </div>
+              </div>
+            </div>
+            <div class="equalcolumn">
+              <div class="card">
+                <div class="container">
+                  <img src="img/inserto14.jpg" class="zoom">
+                  <p>pag. 4-5</p>
+                  <a href="#" class="btnlink rio" title="Vai ai metadati">Vai ai metadati</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- pagination -->
+          <div>
+            <div class="pagination">
+              <a href="#" title="Prev">&laquo;</a>
+              <a href="#" class="active" title="1">1</a>
+              <a href="#" title="2">2</a>
+              <a href="#" title="3">3</a>
+              <a href="#" title="4">4</a>
+              <a href="#" title="5">5</a>
+              <a href="#" title="6">6</a>
+              <a href="#" title="Next">&raquo;</a>
+            </div>
+          </div>
+        </div>
+        <!-- Inserto 2 -->
+        <div id="Inserto 2" class="tabcontent">
+          <h3>Inserto 2 <span>(1730)</span></h3>
+          <!-- search bar -->
+          <form class="example" action="/action_page.php">
+            <input type="text" placeholder="Search.." name="search2" />
+            <button class="bgbro" type="submit"><i class="fa fa-search"></i></button>
+          </form>
+          <!-- cards -->
+          <div class="row">
+            <div class="equalcolumn">
+              <div class="card">
+                <div class="container">
+                  <img src="img/inserto21.jpg" class="zoom">
+                  <p>Frontespizio</p>
+                  <a href="#" class="btnlink rio" title="Vai ai metadati">Vai ai metadati</a>
+                </div>
+              </div>
+            </div>
+            <div class="equalcolumn">
+              <div class="card">
+                <div class="container">
+                  <img src="img/inserto22.jpg" class="zoom">
+                  <p>pag. 0-1</p>
+                  <a href="#" class="btnlink rio" title="Vai ai metadati">Vai ai metadati</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="equalcolumn">
+              <div class="card">
+                <div class="container">
+                  <img src="img/inserto23.jpg" class="zoom">
+                  <p>pag. 2-3</p>
+                  <a href="#" class="btnlink rio" title="Vai ai metadati">Vai ai metadati</a>
+                </div>
+              </div>
+            </div>
+            <div class="equalcolumn">
+              <div class="card">
+                <div class="container">
+                  <img src="img/inserto24.jpg" class="zoom">
+                  <p>pag. 4-5</p>
+                  <a href="#" class="btnlink rio" title="Vai ai metadati">Vai ai metadati</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- pagination -->
+          <div>
+            <div class="pagination">
+              <a href="#" title="Prev">&laquo;</a>
+              <a href="#" class="active" title="1">1</a>
+              <a href="#" title="2">2</a>
+              <a href="#" title="3">3</a>
+              <a href="#" title="4">4</a>
+              <a href="#" title="5">5</a>
+              <a href="#" title="6">6</a>
+              <a href="#" title="Next">&raquo;</a>
+            </div>
+          </div>
+        </div>
+        <!-- Inserto 3 -->
+        <div id="Inserto 3" class="tabcontent">
+          <h3>Inserto 3 <span>(1740)</span></h3>
+          <!-- search bar -->
+          <form class="example" action="/action_page.php">
+            <input type="text" placeholder="Search.." name="search2" />
+            <button class="bgbro" type="submit"><i class="fa fa-search"></i></button>
+          </form>
+          <!-- cards -->
+          <div class="row">
+            <div class="equalcolumn">
+              <div class="card">
+                <div class="container">
+                  <img src="img/inserto31.jpg" class="zoom">
+                  <p>Frontespizio</p>
+                  <a href="#" class="btnlink rio" title="Vai ai metadati">Vai ai metadati</a>
+                </div>
+              </div>
+            </div>
+            <div class="equalcolumn">
+              <div class="card">
+                <div class="container">
+                  <img src="img/inserto32.jpg" class="zoom">
+                  <p>pag. 0-1</p>
+                  <a href="#" class="btnlink rio" title="Vai ai metadati">Vai ai metadati</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="equalcolumn">
+              <div class="card">
+                <div class="container">
+                  <img src="img/inserto33.jpg" class="zoom">
+                  <p>pag. 2-3</p>
+                  <a href="#" class="btnlink rio" title="Vai ai metadati">Vai ai metadati</a>
+                </div>
+              </div>
+            </div>
+            <div class="equalcolumn">
+              <div class="card">
+                <div class="container">
+                  <img src="img/inserto34.jpg" class="zoom">
+                  <p>pag. 4-5</p>
+                  <a href="#" class="btnlink rio" title="Vai ai metadati">Vai ai metadati</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- pagination -->
+          <div>
+            <div class="pagination">
+              <a href="#" title="Prev">&laquo;</a>
+              <a href="#" class="active" title="1">1</a>
+              <a href="#" title="2">2</a>
+              <a href="#" title="3">3</a>
+              <a href="#" title="4">4</a>
+              <a href="#" title="5">5</a>
+              <a href="#" title="6">6</a>
+              <a href="#" title="Next">&raquo;</a>
+            </div>
+          </div>
+        </div>
+        <!-- Inserto 4 -->
+        <div id="Inserto 4" class="tabcontent">
+          <h3>Inserto 4 <span>(1743)</span></h3>
+          <!-- search bar -->
+          <form class="example" action="/action_page.php">
+            <input type="text" placeholder="Search.." name="search2" />
+            <button class="bgbro" type="submit"><i class="fa fa-search"></i></button>
+          </form>
+          <!-- cards -->
+          <div class="row">
+            <div class="equalcolumn">
+              <div class="card">
+                <div class="container">
+                  <img src="img/inserto411.jpg" class="zoom">
+                  <p>Frontespizio</p>
+                  <a href="#" class="btnlink rio" title="Vai ai metadati">Vai ai metadati</a>
+                </div>
+              </div>
+            </div>
+            <div class="equalcolumn">
+              <div class="card">
+                <div class="container">
+                  <img src="img/inserto421.jpg" class="zoom">
+                  <p>pag. 0-1</p>
+                  <a href="#" class="btnlink rio" title="Vai ai metadati">Vai ai metadati</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="equalcolumn">
+              <div class="card">
+                <div class="container">
+                  <img src="img/inserto431.jpg" class="zoom">
+                  <p>pag. 2-3</p>
+                  <a href="item.html" class="btnlink rio" title="Vai ai metadati">Vai ai metadati</a>
+                </div>
+              </div>
+            </div>
+            <div class="equalcolumn">
+              <div class="card">
+                <div class="container">
+                  <img src="img/inserto441.jpg" class="zoom">
+                  <p>pag. 4-5</p>
+                  <a href="#" class="btnlink rio" title="Vai ai metadati">Vai ai metadati</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- pagination -->
+          <div>
+            <div class="pagination">
+              <a href="#" title="Prev">&laquo;</a>
+              <a href="#" class="active" title="1">1</a>
+              <a href="#" title="2">2</a>
+              <a href="#" title="3">3</a>
+              <a href="#" title="4">4</a>
+              <a href="#" title="5">5</a>
+              <a href="#" title="6">6</a>
+              <a href="#" title="Next">&raquo;</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- footer con credits e copy -->
+ <div class="row1 footer">
+ 	<p><a href="#" title="Credits">Credits</a>|<a href="#" title="Licenze">Licenze</a></p>
+	  <div>
+	     <a href="#top" class ="btnlink" title="Torna su">Torna su</a> <a href="#" class="btnlink" title="Link al sito personale">Sito personale</a>
+	     <a href="#" class="btnlink" title="Link alla donazione">DONA</a>
+		</div>
+ </div>
+ <div class="row2 copyright">
+	<p>&copy; Copyright All Rights Reserved 2023 by Silvia Vergine - Esame DH</p>
+ </div>
+ <!-- JAVASCRIPT -->
+ <script>
+function openPage(pageName,elmnt,color) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+
+  
+  document.getElementById(pageName).style.display = "block";
+  elmnt.style.backgroundColor = color;
+}
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+ </body>
+</html>

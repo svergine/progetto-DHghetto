@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang=it>
+ <head>
+  <title>Il Ghetto di Firenze dai documenti d'archivio</title><meta charset="utf-8"/>
+  <link rel="stylesheet" href="style/style.css"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alegreya SC|Castoro Titling"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta name="viewport" content="width-device-width, initial-scale=1, shrink-to-fit=no"> 
+  <!-- ricorda di aggiungere riduzione schermo -->
+  <link rel="icon" type="image/x-icon" href="favicon-libro.ico"/>
+ </head>
+ <body>
+  <!-- header con immagine -->
+  <div>
+  	<header class="header" id="top">
+  	 <img src="img/header-ghetto2.png" class="center responsive" alt="Il Ghetto di Firenze"/>
+  	</header>
+  </div>
+  <!-- navigation bar con dropdown + info e ? sulla dx-->
+  <div class="topnav">
+  	<ul>
+	 <li><a href="index.html" title="Link alla home">Home</a></li>
+	 <li><a href="#" title="Link alla Storia del Ghetto">Storia</a></li>
+	 <li class="dropdown">
+	 	<a href="javascript:void(0)" class="dropbtn active" title="Link al catalogo">Catalogo</a>
+	 	<div class="dropdown-content">
+	 		<a href="#" title="Link ai manoscritti">Manoscritti</a>
+	 		<a href="#" title="Link alle Piante">Piante</a>
+	 		<a href="#" title="Link al Render">Render 3D</a>
+	 	</div>
+	  </li>
+	 <li><a href="#" title="Link ai confronti">Confronti</a></li>
+	 <div class=info>
+	 <li><a href="#" title="Link a info e contatti">Info & Contatti</a></li>
+	 <li><i class="fa fa-question-circle-o" style="font-size: 36px;"></i></li>
+	</div>
+	</ul>
+  </div>
+  <!-- breadcrumbs -->
+   <div>
+    <ul class="breadcrumb">
+     <li><a href="index.html" title="Link alla home" class="bread">Home</a></li>
+     <li><a href="#" title="Link al Catalogo" class="bread">Catalogo</a></li>
+     <li><a href="#" title="Link ai manoscritti" class="bread">Manoscritti</a></li>
+     <li><a href="#" tile="Link a SRP" class="bread">S. R. P.</a></li>
+     <li><a href="list-items.html" tile="Link al Vol.3559" class="bread">Vol. 3559</a></li>
+     <li>Inserto 4 | Pag. 2-3</li>
+    </ul>
+   </div>
+   <!-- 2 col grid per l'item e asides -->
+   <div class="row">
+      <!-- left column -->
+     <div class="leftcolumn">
+        <!-- scopri di più -->
+        <div>
+          <p class="posi">Scarica</p>
+          <a href="#" class="btnlink rio" title="Scarica l'immagine"><i class="fa fa-download"></i>immagine</a>
+          <a href="xmldc.xml" class="btnlink rio" title="link al file xml/dc" target="_blank"><i class="fa fa-file-code-o"></i> XML/DC</a>
+          <a href="xmltei.xml" class="btnlink rio" title="link al file xml/TEI"target="_blank"><i class="fa fa-file-code-o"></i> XML/TEI</a>
+          <a href="xmlead.xml" class="btnlink rio" title="link al file xml/ead"target="_blank"><i class="fa fa-file-code-o"></i> XML/EAD</a>
+          <a href="rdf.ttl" class="btnlink rio" title="link al file RDF"target="_blank"><i class="fa fa-file-code-o"></i> RDF</a>
+        </div>
+        <div>
+          <p class="posi">Potrebbe interessarti</p>
+          <div class="border-section">
+              <img src="img/piantafabbrica.jpg" class="responsive" style="width:195px"/>
+              <p class="textlat">Pianta della Fabbrica del Ghetto</p>
+              <a href="#" title="Link alle piante" target="_blank" class="btnlink rio">Vai alla sezione piante</a>
+          </div>  
+        </div>
+        <div>
+          <p class="posi">Scopri di più sul creatore delle Regie Possessioni</p>
+          <div class="border-section">
+              <img src="img/cosimoi.jpg" class="responsive" style="width:195px"/>
+              <p class="textlat">Cosimo I de Medici<sup><a href="https://viaf.org/viaf/121802096/" title="Viaf di Cosimo I de Medici" target="_blank" class="textlat">VIAF, </a></sup><sup><a href="https://www.getty.edu/vow/ULANFullDisplay?find=cosimo+i+de+medici&role=&nation=&prev_page=1&subjectid=500125867" title="ULAN di Cosimo I de Medici" target="_blank" class="textlat">ULAN</a></sup></p>
+              <a href="https://it.wikipedia.org/wiki/Cosimo_I_de%27_Medici" class="btnlink rio" title="Link wikipedia a Cosimo I" target="_blank">La vita di Cosimo I</a>
+          </div>  
+        </div>
+        <div>
+          <p class="posi">Approfondisci</p>
+          <div class="border-section">
+              <img src="img/ASF.png" alt="logo Archivio di Stato di Firenze" class="responsive" style="width:195px"/>
+              <p class="textlat">Inventario dello S.R.P.</p>
+              <a href="https://archiviodistatofirenze.cultura.gov.it/asfi/strumenti/inventari-on-line/inventari-s/scrittoio-delle-regie-possessioni" title="Link al sito dell'Archivio di Stato di Firenze" target="_blank" class="btnlink rio">Vai al sito dell'A.S.F</a>
+          </div>  
+        </div>
+     </div>
+    <!-- right column -->
+      <div class="rightcolumn">
+        <h2>Volume 3559 | Inserto 4</h2>
+        <div class="border-section">
+          <!-- img -->
+          <div class="img-magnifier-container">
+            <img id="myimage" src="img/item2.jpg" class="responsive" alt="pag.3 manoscritto"/>
+          </div>
+            <div class="pagination">
+              <a href="#" title="Prev">&laquo;</a>
+              <a href="#" title="1">1</a>
+              <a href="#" class="active" title="2">2</a>
+              <a href="#" title="3">3</a>
+              <a href="#" title="4">4</a>
+              <a href="#" title="5">5</a>
+              <a href="#" title="6">6</a>
+              <a href="#" title="Next">&raquo;</a>
+            </div>
+          <!-- metadati -->
+          <button class="accordion">Metadati</button>
+            <div class="panel">
+                <p><span>Titolo:</span> Descrizione del Ghetto</p><hr/>
+                <p><span>Nome dei creatori:</span> Francesco Buratti, Pier Antonio Tosi</p><hr/>
+                <p><span>Luogo di creazione:</span> Firenze <sup><a href="https://www.geonames.org/3176959/florence.html" title="link al Geonames di Firenze" target="_blank" class="textlat"> Geonames, </a></sup><sup><a href="https://www.getty.edu/vow/TGNFullDisplay?find=florence&place=&nation=&prev_page=1&english=Y&subjectid=7000457" title="link al TGN di Firenze" target="_blank" class="textlat"> TGN</a></sup></p><hr/>
+                <p><span>Data di creazione:</span> 1743</p><hr/>
+                <p><span>Tipologia di documento:</span> Manoscritto</p><hr/>
+                <p><span>Ubicazione:</span> Archivio di Stato di Firenze</p><hr/>
+                <p><span>Fondo:</span> Scrittoio delle Regie Possessioni</p><hr/>
+                <p><span>Volume:</span> 3559</p><hr/>
+                <p><span>Inserto:</span> 4</p><hr/>
+                <p><span>Materiali correlati:</span> <a href="#" title="link all'inserto 1" class="textlat">Inserto 1</a> , <a href="#" title="link all'inserto 1" class="textlat">Inserto 2 </a> , <a href="#" title="link all'inserto 1" class="textlat">Inserto 3</a></p><hr/>
+                <p><span>Descrizione:</span> Il volume, insieme agli altri 3 inserti, rappresenta una fondamentale fonte per la descrizione del Ghetto di Firenze in ogni sua parte architettonica.</p>
+            </div>
+          <!-- trascr -->
+          <div>
+            <button class="accordion sup">Tascrizione pagina</button>
+            <div class="panel">
+                <p>A di 20 Gennaio 1743.<br/>Descrizione, e inventario dello stato, che presentemente si trovano, tutti i Quartieri, Botteghe, Magazzini, Forni et altro, contenuto nel Ghetto Vecchio e Nuovo; Siccome delle Botteghe fuori e attorno a detto Ghetto, e Macelli di Mercato Vecchio, (cancellato: e di altre case e botteghe, esistenti nella città di Firenze,) tutto di pertinenza dello Scrittoio delle Possessioni di S. A. R.<br/> Qual descrizzione e inventario fatto da me infrascritto, assieme col signor Francesco Buratti risquotitore delle casa a pigione suddette ecc. <br/>La fabbrica del Ghetto è di figura quadrilatera, la quale resta in isola et è situata quasi nel mezzo della città di Firenze, presso a Mercato Vecchio che gli resta dalla parte di mezzo giorno. A levante confina colle due vie Sportaj e Succhiellinai; A tramontana la Piazza dell'Olio et a ponente via dei Rigattieri. Sono in questo Ghetto due piazze.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- flipcards -->
+      <div class="rightcolumn">
+          <h2>Sfoglia le pagine che ti interessano</h2>
+          <!-- search bar -->
+          <form class="example" action="/action_page.php">
+            <input type="text" placeholder="Search.." name="search2" />
+            <button class="bgbro" type="submit"><i class="fa fa-search"></i></button>
+          </form>
+          <div class="border-section sup">
+            <div class="row">
+             <div class="column">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                 <div class="flip-card-front">
+                  <img src="img/inserto41.jpg" alt="frontespizio" style="width:100%">
+                 </div>
+                 <div class="flip-card-back">
+                     <p>frontespizio:<br/>non presenta nessuna dicitura se non il numero dell'inserto (4), aggiunto posteriormente</p>
+                 </div>
+                </div>
+              </div>
+             </div>
+             <div class="column">
+               <div class="flip-card">
+                <div class="flip-card-inner">
+                 <div class="flip-card-front">
+                  <img src="img/inserto42.jpg" alt="pag. 0-1" style="width:100%">
+                 </div>
+                 <div class="flip-card-back">
+                     <p>pag. 0-1:<br/>descrizione del ghetto</p>
+                 </div>
+                </div>
+              </div>
+             </div>
+             <div class="column">
+               <div class="flip-card">
+                <div class="flip-card-inner">
+                 <div class="flip-card-front">
+                  <img src="img/inserto43.jpg" alt="pag. 2-3" style="width:100%">
+                 </div>
+                 <div class="flip-card-back">
+                     <p>pag. 2-3:<br/>20 gennaio 1743<br/>introduzione</p>
+                 </div>
+                </div>
+              </div>
+             </div>
+             <div class="column">
+               <div class="flip-card">
+                <div class="flip-card-inner">
+                 <div class="flip-card-front">
+                  <img src="img/inserto44.jpg" alt="pag. 4-5" style="width:100%">
+                 </div>
+                 <div class="flip-card-back">
+                     <p>pag. 4-5<br/>Piazza vecchia e porte</p>
+                 </div>
+                </div>
+              </div>
+
+             </div>
+            </div>  
+            <div class="row">
+             <div class="column">
+               <img src="img/inserto45.jpg" alt="pag. 6-7" style="width:100%">
+             </div>
+             <div class="column">
+               <img src="img/inserto46.jpg" alt="pag. 8-9" style="width:100%">
+             </div>
+             <div class="column">
+               <img src="img/inserto47.jpg" alt="pag- 10-11" style="width:100%">
+             </div>
+             <div class="column">
+               <img src="img/inserto48.jpg" alt="pag. 12-13" style="width:100%">
+             </div>
+            </div>
+          </div>
+      </div>
+    </div>
+ <!-- footer con credits e copy -->
+  <div class="row1 footer">
+    <p><a href="#" title="Credits">Credits</a>|<a href="#" title="Licenze">Licenze</a></p>
+      <div>
+         <a href="#top" class ="btnlink" title="Torna su">Torna su</a> <a href="#" class="btnlink" title="Link al sito personale">Sito personale</a>
+         <a href="#" class="btnlink" title="Link alla donazione">DONA</a>
+        </div>
+ </div>
+ <div class="row2 copyright">
+    <p>&copy; Copyright All Rights Reserved 2023 by Silvia Vergine - Esame DH</p>
+ </div>
+ <!-- JAVASCRIPT ZOOM LENTE -->
+ <script>
+function magnify(imgID, zoom) {
+  var img, glass, w, h, bw;
+  img = document.getElementById(imgID);
+  /*create magnifier glass:*/
+  glass = document.createElement("DIV");
+  glass.setAttribute("class", "img-magnifier-glass");
+  /*insert magnifier glass:*/
+  img.parentElement.insertBefore(glass, img);
+  /*set background properties for the magnifier glass:*/
+  glass.style.backgroundImage = "url('" + img.src + "')";
+  glass.style.backgroundRepeat = "no-repeat";
+  glass.style.backgroundSize = (img.width * zoom) + "px " + (img.height * zoom) + "px";
+  bw = 3;
+  w = glass.offsetWidth / 2;
+  h = glass.offsetHeight / 2;
+  /*execute a function when someone moves the magnifier glass over the image:*/
+  glass.addEventListener("mousemove", moveMagnifier);
+  img.addEventListener("mousemove", moveMagnifier);
+  /*and also for touch screens:*/
+  glass.addEventListener("touchmove", moveMagnifier);
+  img.addEventListener("touchmove", moveMagnifier);
+  function moveMagnifier(e) {
+    var pos, x, y;
+    /*prevent any other actions that may occur when moving over the image*/
+    e.preventDefault();
+    /*get the cursor's x and y positions:*/
+    pos = getCursorPos(e);
+    x = pos.x;
+    y = pos.y;
+    /*prevent the magnifier glass from being positioned outside the image:*/
+    if (x > img.width - (w / zoom)) {x = img.width - (w / zoom);}
+    if (x < w / zoom) {x = w / zoom;}
+    if (y > img.height - (h / zoom)) {y = img.height - (h / zoom);}
+    if (y < h / zoom) {y = h / zoom;}
+    /*set the position of the magnifier glass:*/
+    glass.style.left = (x - w) + "px";
+    glass.style.top = (y - h) + "px";
+    /*display what the magnifier glass "sees":*/
+    glass.style.backgroundPosition = "-" + ((x * zoom) - w + bw) + "px -" + ((y * zoom) - h + bw) + "px";
+  }
+  function getCursorPos(e) {
+    var a, x = 0, y = 0;
+    e = e || window.event;
+    /*get the x and y positions of the image:*/
+    a = img.getBoundingClientRect();
+    /*calculate the cursor's x and y coordinates, relative to the image:*/
+    x = e.pageX - a.left;
+    y = e.pageY - a.top;
+    /*consider any page scrolling:*/
+    x = x - window.pageXOffset;
+    y = y - window.pageYOffset;
+    return {x : x, y : y};
+  }
+}
+</script>
+<script>
+/* Initiate Magnify Function
+with the id of the image, and the strength of the magnifier glass:*/
+magnify("myimage", 3);
+</script>
+<!-- SCRIPT ACCORDION TRASCRIZIONE-->
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+ </body>
+</html>
